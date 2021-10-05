@@ -1,0 +1,77 @@
+.demoForm {
+	width: 280px;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+	background: #282c34;
+	padding: 0px 20px 20px 20px;
+	border-radius: 20px;
+    
+}
+.inputName{
+    font-family: roboto;
+    width: 100%;
+	overflow: hidden;
+	font-size: 17px;
+	padding: 0 0;
+	margin: 4px 5px;
+}
+.inputName label{
+    margin-left: 10px;
+    float: left;
+}
+.inputName input{
+    border: none;
+	color: black;
+	font-size: 17px;
+	width: 80%;
+	float: left;
+	margin: 1px 10px;
+}
+.container{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.container input{
+    float: left;
+}
+.f-group{
+    float: left;
+}
+
+.f-group label{
+    display: flex;
+    margin-bottom: 3px;
+    font-family: roboto;
+    font-weight: 300;
+}
+
+select{
+    border: 1px solid #555;
+    height: 25px;
+    width: 88%;
+    padding: 0 10px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+#slct1{
+    float: left;
+    margin-left: 4px;
+    width: 80%;
+}
+#slct2{
+    float: left;
+    width: 250%;
+}
+.btn-primary1{
+    padding: 7px;
+    margin-right: 50px;
+}
+.btn-primary2{
+    padding: 7px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
